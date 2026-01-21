@@ -112,7 +112,7 @@ The trained model pipeline was deployed using **Streamlit Community Cloud**.
 
 ---
 
-## 📁 Repository Structure  ✅ *(UPDATED)*
+## 📁 Repository Structure  
 
 ```
 customer-segmentation-streamlit/
