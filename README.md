@@ -1,11 +1,3 @@
-Got it, **Gayatri** 🙌
-Here’s a **clean, professional, interview-ready README.md** you can **directly copy-paste** into your GitHub repo
-`customer-segmentation-streamlit`.
-
-I’ve written it in **simple but industry-standard language** 👌
-
----
-
 # 🛍️ Customer Segmentation using K-Means | Streamlit Deployment
 
 ## 📌 Project Overview
