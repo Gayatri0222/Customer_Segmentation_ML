@@ -1,3 +1,6 @@
+
+---
+
 # 🛍️ Customer Segmentation using K-Means | Streamlit Deployment
 
 ## 📌 Project Overview
@@ -72,7 +75,7 @@ I applied an **unsupervised machine learning approach** using **K-Means clusteri
 
 Feature scaling was performed using **StandardScaler** because K-Means is a distance-based algorithm.
 
-> The scaler was saved using `joblib` and reused during deployment to ensure consistency between training and prediction data.
+> Feature scaling, PCA, and K-Means were combined into a single **scikit-learn Pipeline**, which was trained and saved using `joblib` to ensure consistent preprocessing during deployment.
 
 ---
 
@@ -82,24 +85,24 @@ Feature scaling was performed using **StandardScaler** because K-Means is a dist
 * Reduced high-dimensional data into 2D
 * Helped in visual interpretation of customer clusters
 
-##📁 Repository Structure
+---
 
-customer-segmentation-streamlit/
-│
-├── app.py              # Streamlit application
+## 🏷️ Customer Segments
 
-├── model.joblib        # Trained ML pipeline
+After model training and evaluation, clusters were labeled into meaningful business segments such as:
 
-├── Kmeans.ipynb        # Model development notebook
+* High-level Customers
+* Mid-level Customers
+* Low-leve/At-Risk Customers
+  
 
-├── requirements.txt    # Project dependencies
+*(Exact labels may vary based on dataset)*
 
-└── README.md           # Project documentation
-
+---
 
 ## 🚀 Deployment
 
-The trained model and scaler were deployed using **Streamlit Community Cloud**.
+The trained model pipeline was deployed using **Streamlit Community Cloud**.
 
 ### Deployment Features:
 
@@ -109,16 +112,18 @@ The trained model and scaler were deployed using **Streamlit Community Cloud**.
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure  ✅ *(UPDATED)*
 
----
+```
 customer-segmentation-streamlit/
 │
 ├── app.py              # Streamlit application
-├── model.joblib        # Trained ML pipeline
-├── Kmeans.ipynb        # Model development notebook
-├── requirements.txt    # Project dependencies
+├── model.joblib        # Trained ML pipeline (Scaler + PCA + K-Means)
+├── Kmeans.ipynb        # Model development & analysis notebook
+├── requirements.txt    # Required libraries
 └── README.md           # Project documentation
+```
+
 ---
 
 ## ▶️ How to Run the Project Locally
@@ -129,4 +134,5 @@ streamlit run app.py
 ```
 
 ---
+
 
