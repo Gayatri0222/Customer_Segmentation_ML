@@ -82,17 +82,20 @@ Feature scaling was performed using **StandardScaler** because K-Means is a dist
 * Reduced high-dimensional data into 2D
 * Helped in visual interpretation of customer clusters
 
----
+##📁 Repository Structure
 
-## 🏷️ Customer Segments
+customer-segmentation-streamlit/
+│
+├── app.py              # Streamlit application
 
-After model training and evaluation, clusters were labeled into meaningful business segments such as:
+├── model.joblib        # Trained ML pipeline
 
-* High-level Customers
-* Mid-level Customers
-* Low-level/ At-Risk Customers
-  
----
+├── Kmeans.ipynb        # Model development notebook
+
+├── requirements.txt    # Project dependencies
+
+└── README.md           # Project documentation
+
 
 ## 🚀 Deployment
 
