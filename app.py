@@ -209,10 +209,11 @@ else:
                 "Download Segmented CSV",
                 csv,
                 "segmented_customers.csv",
-                "text/csv"
+                "text/csv/xlsx"
             )
 
     st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
