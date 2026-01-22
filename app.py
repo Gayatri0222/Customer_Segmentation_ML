@@ -206,10 +206,11 @@ else:
 
             csv = final_df.to_csv(index=False).encode("utf-8")
             st.download_button(
-                "Download Segmented CSV",
+                "Download Segmented CSV/xlsx",
                 csv,
                 "segmented_customers.csv",
-                "text/csv"
+                "text/csv/xlsx"
             )
 
     st.markdown('</div>', unsafe_allow_html=True)
+
