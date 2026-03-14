@@ -10,6 +10,8 @@ In this project, I built a **machine learning–based customer segmentation syst
 
 The application allows users to input customer details and instantly predicts the **customer segment**, helping businesses make data-driven marketing decisions.
 
+Live Demo [https://customersegmentationml-htvawf38s7rcaatjapachm.streamlit.app/]
+
 ---
 
 ## 🎯 Problem Statement
